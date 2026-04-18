@@ -1,0 +1,36 @@
+{
+  "name": "@asadullokhn/teztun-mcp",
+  "version": "1.0.1",
+  "mcpName": "io.github.asadullokhn/teztun",
+  "description": "Official TezTun MCP server — manage tunnels, subdomains, and service tokens from Claude Code, Claude Desktop, Cursor, Zed, or any MCP-compatible AI client.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "teztun",
+    "tunnel",
+    "ngrok-alternative",
+    "claude",
+    "claude-code",
+    "claude-desktop",
+    "cursor",
+    "zed",
+    "ai-tools"
+  ],
+  "license": "MIT",
+  "author": "Asadullokh Nurullaev",
+  "homepage": "https://teztun.uz/docs/mcp-server",
+  "repository": {
+    "type": "git",
+    "url": "https://teztun.uz"
+  },
+  "bin": {
+    "teztun-mcp": "bin/teztun-mcp.js"
+  },
+  "files": [
+    "bin/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
